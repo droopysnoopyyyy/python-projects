@@ -13,6 +13,6 @@ while n > 0:
     sum += ((r)**p)
     n //= 10
 if sum == q:
-    print(q, "is a narcissistic number")
+    print(q, "is an armstrong number")
 else:
-    print(q, "is not a narcissistic number")
+    print(q, "is not an armstrong number")
