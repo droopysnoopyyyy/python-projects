@@ -1,17 +1,17 @@
 def sum(a,b):
     sum = a + b
     print("the sum is: ", sum)
-    return "thank you for using this crappy calculator"
+    return "thank you for using this calculator"
 
 def subtraction(a,b):
     diff = a - b
     print("the difference is: ", diff)
-    print("thank you for using this crappy calculator :3")
+    print("thank you for using this calculator")
 
 def multiply (a,b):
     product = a * b
     print("the product is: ", product)
-    print("thank you for using this crappy calculator :3")
+    print("thank you for using this calculator")
 
 def division (a,b):
     div = a/b
@@ -20,12 +20,12 @@ def division (a,b):
     else:
         print("math error")
 
-    print("thank you for using this crappy calculator :3")
+    print("thank you for using this calculator")
 
 def square_root(a):
     sqrt = a**0.5
     print("the square root is: ", sqrt)
-    print("thank you for using this crappy calculator :3")
+    print("thank you for using this calculator")
 
 x = int(input("for addition, press 1 \n for subraction, press 2 \n for multiplication, press 3 \n for division, press 4 \n to find out the square root, press 5: "))
 if x == 1:
